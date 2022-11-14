@@ -1,0 +1,11 @@
+# Stub EMA Android Service
+
+This is a stub re-implementation of the `ema-ti-8-android-module` "ti.myservice" 
+Titanium native module API.  
+
+All it does is start a foreground service in the same manner as the real service.
+All of the notification methods do nothing.
+
+## Building
+
+Simply run `cd android; ti build -p android --build-only` which will compile and package your module.
